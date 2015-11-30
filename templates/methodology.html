@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Methodology{% endblock %}
+
+{% block content %}
+<div class="container">
+	<h1>Methodology</h1>
+	<hr/>
+	<p>
+		I used the following data sources:
+			<ul>
+				<li><span style="font-weight:bold">Global Terrorism Database (GTD): CSV</span></li>
+					<p>The Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world from 1970 through 2014.  Unlike many other event databases, the GTD includes systematic data on deomestic as well as transnational terrorist incidents that have occurred during this time period and now includes more than 140,000 cases.  For each GTD incident, information is available on the date and location of the incident, the weapons used and the nature of the target, the number of casualties, and--when ientifiable--the group or individual responsible.</p>
+					<a href="http//www.start.umd.edu/gtd/contact/">Click here to access the GTD</a>
+
+					<hr/>
+
+				<li><span style="font-weight:bold">Big, Allied and Dengerous (BAAD): website</span></li>
+					<p>The Big, Allied and Dengerous (BAAD) project looks at a variety of terrorist and insurgent organizations grouped together as violent non-state actors (VNSAs).  The network connections that exist between VNSAs, and the link to countries that host, sponsor, or are targeted by a given VNSA.  Its primary purpose is to enable researchers and analysts to increase understanding of terrorism, insurgency, and links between both forms of violent political action.</p>
+					<a href="http://www.start.umd.edu/baad/database">Click here to access BAAD</a>
+
+					<hr/>
+
+				<li><b>World Bank Development Report: API</b></li>
+
+					<p>The primary World Bank collection of development indicators, compiled from officially-recognized international sources. It presents the most current and accurate global development data available, and includes national, regional and global estimates.  Topics included are:  Agriculture and Rural Development, Aid Effectiveness, Climate Change, Economy and Growth, Education, Energy and Mining, Environment, External Debt, Financial Sector, Gender, Health, Infrastructure, Labor and Social Protection, Poverty, Private Sector, Public Sector, Science and Technology, Social Development, Trade, Urban Development</p>
+					<a href="http://data.worldbank.org/querybuilder">Click here to access the World Bank API</a>
+
+					<hr/>
+
+				<li><b>Armed Conflicts, 1946-2014: CSV</b></li>
+
+					<p>This is a conflict-year dataset with information on armed conflict where at least on party is the government of a state in the time period 1946-2014</p>
+					<a href="http://pcr.uu.se/research/ucdp/datasets/ucdp_prio_armed_conflict_dataset/">Click here to access the dataset</a>
+			</ul>
+	</p>
+</div>
+{% endblock %}
